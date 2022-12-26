@@ -34,9 +34,9 @@ export  const Banner = () => {
                 {
                     data.map((imag, i) => {
                         return (
-                            <>
-                                <img src={imag} alt="img" key={i} className="banner_img" />
-                            </>
+                            
+                                <img key={i} src={imag} alt="img"  className="banner_img" />
+                            
                         )
                     })
                 }

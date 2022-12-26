@@ -49,7 +49,7 @@ export const Slide = ({title}) => {
                     products.map((e) => {
                         return (
                             
-                                <div className="products_items">
+                                <div key={e.id} className="products_items">
                                     <div className="product_img">
                                         <img src={e.url} alt="product" />
                                     </div>
